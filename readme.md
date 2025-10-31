@@ -5,7 +5,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Groq](https://img.shields.io/badge/Groq-API-black.svg)
+![Groq](https://img.shields.io/badge/Groq-API-gold.svg)
 ![Status](https://img.shields.io/badge/Status-Beta-orange.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS%20%7C%20Codespaces-informational.svg)
 
@@ -40,5 +40,6 @@ cd grizgpt
 pip install groq rich requests beautifulsoup4
 sudo apt install nmap  # required for active scanning
 #get Free Groq API Key Sign up at https://console.groq.com/ (no credit card)
-python main.py.py
+python main.py
+
 
