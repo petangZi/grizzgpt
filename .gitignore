@@ -47,6 +47,7 @@ logs/
 griz_session.json
 *.tmp
 *.temp
+.env
 
 # GitHub Codespaces
 .devcontainer/
