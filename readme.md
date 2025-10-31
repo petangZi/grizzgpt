@@ -40,4 +40,5 @@ cd grizgpt
 pip install groq rich requests beautifulsoup4
 sudo apt install nmap  # required for active scanning
 #get Free Groq API Key Sign up at https://console.groq.com/ (no credit card)
-python grizzai.py
+python main.py.py
+
