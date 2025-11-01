@@ -320,7 +320,7 @@ Kembalikan hanya kode Python dalam blok ```python...```, tanpa penjelasan.
 # === MAIN ===
 def main():
     console.clear()
-    console.print(Panel("[bold magenta]🐺 grizGPT v6.0 — Autonomous AI Pentester[/bold magenta]", expand=False))
+    console.print(Panel("[bold magenta]🐺 grizGPT v1.0 — Autonomous AI Pentester[/bold magenta]", expand=False))
     console.print("[bold green]✅ !scan target → AI scan + analisis + rewrite otomatis\n✅ !summarize / !researcher / !help\n✅ Session save/load[/bold green]\n")
 
     # Cek & buat scan.py default jika belum ada
@@ -426,4 +426,5 @@ if __name__ == "__main__":
     except ImportError:
         console.print("[yellow]Install: pip install beautifulsoup4[/yellow]")
         sys.exit(1)
+
     main()
