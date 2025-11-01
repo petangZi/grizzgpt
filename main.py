@@ -384,7 +384,7 @@ def run_scan(target: str, mode="fast"):
                 continue
             elif cmd == "help":
                 console.print(Panel("""
-[bold]grizGPT v6.0 — Command List:[/bold]
+[bold]grizGPT v1.0 — Command List:[/bold]
 • [green]!scan <target>[/green] → Autonomous scan (AI rewrite scan.py)
 • [green]!summarize <url>[/green] → Ringkas artikel/CVE
 • [green]!researcher <topik>[/green] → Cari konteks via DuckDuckGo
@@ -428,3 +428,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
     main()
+
